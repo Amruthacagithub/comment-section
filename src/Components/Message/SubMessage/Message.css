@@ -1,0 +1,48 @@
+.messageContainer{
+    position: relative;
+    width: 55%;
+    word-wrap: break-word;
+    margin: 50px 20%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f1f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.messageUser{
+    font-weight: bold;
+    font-size: 1rem;
+    padding-left: 5px;
+}
+
+.messageText{
+    font-size: 1rem;
+    margin: 13px 0;
+    padding-left: 10px;
+}
+
+.messageIconContainer{
+    margin-top: 13px;
+}
+.messageIconContainer > *{
+    padding-left: 5px;
+    display: inline-block;
+    color: #4688de;
+    margin-right: 16px;
+    cursor: pointer;
+}
+.messageIconContainer > div{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.arrowReplies{
+    padding-left: 5px;
+    cursor: pointer;
+}
+.arrowReplies > *{
+    color: #4688de;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-right: 3px;
+}
